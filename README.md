@@ -8,7 +8,7 @@ Jing Tang
 Graham Thomas (Square)
 David Wetherfield
 Christopher Bach
-Khalid Fallous
+Khalid Hamid Fallous
 
 Overview
 
