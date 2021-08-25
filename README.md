@@ -1,4 +1,4 @@
-# PowerRangers
+# Twitter COVID Sentiment Analysis
 Group Project: Module 20 
 
 
@@ -6,7 +6,7 @@ Members:
 Jay Hirpara
 Jing Tang
 Graham Thomas (Square)
-David Wetherfield
+David Wetherhold (Circle)
 Christopher Bach
 Khalid Hamid Fallous
 
