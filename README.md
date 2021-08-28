@@ -1,4 +1,4 @@
-# PowerRangers
+# Machine Learning Branch
 Group Project: Module 20 
 
 
@@ -20,12 +20,4 @@ This project aims to collect some data and perform sentiment analysis surroundin
 
 
 
-Questions We Want Answered:
 
-Communication Protocols:
-- Primarily, the group communicates through the Slack App
-
-- All parts of collaboration, including idea sharing, progress updates, coding updates, and meeting arrangements, are made through Slack.
-
-
-Summary
