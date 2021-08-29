@@ -1,10 +1,12 @@
 
 #files to ignore
 
-Bach_Twitter_Testing/01.AuthenticationSuccessful.ipynb
-Bach_Twitter_Testing/02.ClassBuild.ipynb
-Bach_Twitter_Testing/03.FunctionBuild.ipynb
-Bach_Twitter_Testing/TwitterSentimentTest.py
+Twitter_API_Testing/01.AuthenticationSuccessful.ipynb
+Twitter_API_Testing/02.ClassBuild.ipynb
+Twitter_API_Testing/03.FunctionBuild.ipynb
+Twitter_API_Testing/TwitterSentimentTest.py
+Twitter_API_Testing/01x.AuthenticationSuccessful.ipynb
+Twitter_API_Testing/03x.FunctionBuild.ipynb
 config.py
 OneTweetJson.docx
 
