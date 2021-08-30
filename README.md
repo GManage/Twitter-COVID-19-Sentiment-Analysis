@@ -60,6 +60,10 @@ We have a provisional database as:
 [Fig1: Preliminary DB Structure](02.Database/PreliminaryDBStructure.png?raw=true "Fig1: Preliminary DB Structure")
 Within the 02.Database folder is also a jupyter notebook which can be used to create the tables in PostGres.
 
+We anticipate having a sentiment analysis engine (preliminarily in the 01.Twitter_API_Testing folder), which will score tweets as positive, negative, or neutral.  Thus, the sample data in 03.Machine_Learning is a  .csv file with three possibilities.  We use this sample data to load into the two jupyter notebooks in the same folder.
+
+
+
 
 
 
