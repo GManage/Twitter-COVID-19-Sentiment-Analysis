@@ -62,11 +62,3 @@ Within the 02.Database folder is also a jupyter notebook which can be used to cr
 
 We anticipate having a sentiment analysis engine (preliminarily in the 01.Twitter_API_Testing folder), which will score tweets as positive, negative, or neutral.  Thus, the sample data in 03.Machine_Learning is a  .csv file with three possibilities.  We use this sample data to load into the two jupyter notebooks in the same folder.
 
-
-
-
-
-
-
-
-Summary
