@@ -13,7 +13,11 @@ David Wetherhold (Circle)
 
 
 Overview
-This project seeks to draw a correlary analysis between twitter sentiment by geography and hospitalization rate.  The purpose is to broadly understand the effects of the vaccine on realized health implications.
+This project seeks to draw a correlary analysis between twitter sentiment by geography 
+and hospitalization rate.  The purpose is to broadly understand the effects of the vaccine 
+on realized health implications.
+
+Our data source is directly from Twitter, via the widely published Twitter API, tweepy.
 
 
 Project Goal:
