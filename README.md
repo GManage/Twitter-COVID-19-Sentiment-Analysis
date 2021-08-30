@@ -12,7 +12,6 @@ David Wetherhold (Circle)
 
 
 Then we'll download necessary libraries prior to analysing tweets with Python and PostgreSQL
-<b>
 
 
 #### Overview
