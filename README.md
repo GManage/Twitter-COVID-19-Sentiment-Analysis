@@ -30,6 +30,3 @@ Logistic regression is a classification algorithm, used when the value of the ta
 
 
 
-Resources:
-1. https://www.youtube.com/watch?v=4UI9qZw7DXg
-2. 
