@@ -1,6 +1,6 @@
+
 # Twitter COVID-19 Sentiment Analysis
 Group Project: Module 20 
-
 
 #### Members:
 Christopher Bach (Pentagon)
@@ -10,6 +10,9 @@ Jing Tang (X)
 Graham Thomas (Square)
 David Wetherhold (Circle)
 
+
+Then we'll download necessary libraries prior to analysing tweets with Python and PostgreSQL
+<b>
 
 
 #### Overview
@@ -56,9 +59,39 @@ Communication Protocols:
 At this stage, we're still working out the format of the data that will feed out of the Twitter (Tweety) pipeline.
 We have a provisional database as:
 
-![Fig1: Preliminary DB Structure](02.Database/PreliminaryDBStructure.png)
-[Fig1: Preliminary DB Structure](02.Database/PreliminaryDBStructure.png?raw=true "Fig1: Preliminary DB Structure")
+<img width="601" alt="Screen Shot 2021-08-29 at 7 06 58 AM" src="https://user-images.githubusercontent.com/82069038/131248251-f9881d74-f64b-44ff-bac6-ca4ee8693219.png">  
+  
+  
+  
 Within the 02.Database folder is also a jupyter notebook which can be used to create the tables in PostGres.
 
 We anticipate having a sentiment analysis engine (preliminarily in the 01.Twitter_API_Testing folder), which will score tweets as positive, negative, or neutral.  Thus, the sample data in 03.Machine_Learning is a  .csv file with three possibilities.  We use this sample data to load into the two jupyter notebooks in the same folder.
+
+
+
+# ETL Notes
+### Extract-Transform-Load
+--- 
+First, design an Entity Relationship Diagram (ERD) as a visual aid, prior to creating Tables in PostgreSQL. (see below)
+
+  
+  <img width="601" alt="Screen Shot 2021-08-29 at 7 06 58 AM" src="https://user-images.githubusercontent.com/82069038/131248251-f9881d74-f64b-44ff-bac6-ca4ee8693219.png">
+  
+  
+ -    tweepy: Python library for accessing the Twitter API
+ -   SkLearn: popular machine learning library
+ -    NLTK: Natural language processing library
+ -   re: regular expression library
+ -   pandas: popular data analysis library
+  
+  
+  
+We're tasked with priming raw data from JSON files via Twitter's API.\
+Nevertheless, we'll consider the following questions before any unsupervised learning models can be applied and results analyzed. 
+
+   -  Will I be able to easily hand off this data set to other teams?
+   -  Does the data contain excess data that we don’t really need?
+   -  How can I get this data to be used to create great visualizations?
+
+
 
