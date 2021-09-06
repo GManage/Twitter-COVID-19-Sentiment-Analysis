@@ -44,6 +44,7 @@ We intend to use CDC, or other data as the source of hospitalization rate data.
 
 Communication Protocols:
 - All parts of collaboration, including idea sharing, progress updates, coding updates, and meeting arrangements, are made through Slack.
+- The group meets each Monday and Wednesday, and as necessary on Slack.
 
 #### DataTools: 
 1. Python 3.7 libraries: Twython, Tweety library, sklearn
