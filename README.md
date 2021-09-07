@@ -11,15 +11,13 @@ Graham Thomas (Square)
 David Wetherhold (Circle)
 
 
-Then we'll download necessary libraries prior to analysing tweets with Python and PostgreSQL
 
 
 #### Overview
-This project seeks to draw a correlary analysis between twitter sentiment by geography 
-and hospitalization rate.  The purpose is to broadly understand the effects of the vaccine 
-on realized health implications.
+This project seeks to build a correlation analysis between twitter sentiment and hospitalization rates.  The purpose is to broadly understand the effects of sentiment towards the vaccine on realized health implications.
 
-Our data source is directly from Twitter, via the widely published Twitter API, tweepy.
+Our data sources are directly from Twitter, via the widely published Twitter API, tweepy, as well as several datasets
+sourced from Kaggle.
 
 
 #### Project Goal:
@@ -43,8 +41,9 @@ We intend to use CDC, or other data as the source of hospitalization rate data.
 
 
 Communication Protocols:
-- All parts of collaboration, including idea sharing, progress updates, coding updates, and meeting arrangements, are made through Slack.
-- The group meets each Monday and Wednesday, and as necessary on Slack.
+- The group meets each Monday and Wednesday evening.
+- All other collaboration, including idea sharing, progress updates, coding updates, and meeting arrangements, are made through Slack.
+
 
 #### DataTools: 
 1. Python 3.7 libraries: Twython, Tweety library, sklearn
@@ -54,20 +53,19 @@ Communication Protocols:
 
 
 
-#### Deliverable 1 Overview:
-
-At this stage, we're still working out the format of the data that will feed out of the Twitter (Tweety) pipeline.
-We have a provisional database as:
 
 
-  
-  
-  
-Within the 02.Database folder is also a jupyter notebook which can be used to create the tables in PostGres.
+#### Deliverable 2 Outline:
 
-We anticipate having a sentiment analysis engine (preliminarily in the 01.Twitter_API_Testing folder), which will score tweets as positive, negative, or neutral.  Thus, the sample data in 03.Machine_Learning is a  .csv file with three possibilities.  We use this sample data to load into the two jupyter notebooks in the same folder.
 
-#### Deliverable 2 Overview:
+
+##### Machine Learning Model
+
+
+
+
+
+##### Database Integration
 
 
 ![Fig1: Updated Database Structure](02.Database/UpdatedDBStructure.png)
@@ -76,9 +74,54 @@ We anticipate having a sentiment analysis engine (preliminarily in the 01.Twitte
 An Amazon RDS instance is created at:
 covidsentiment.cqciwtn1qpki.us-east-2.rds.amazonaws.com
 
+and can be accessed with a password upon request.
+
 This database is initially loaded with a dataset of 60k tweets collected over an 8 week period from December 1 2019 to Jan 28 2020 from:
 
 https://www.trackmyhashtag.com/blog/free-twitter-datasets/
+
+
+
+
+
+
+
+##### Dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
