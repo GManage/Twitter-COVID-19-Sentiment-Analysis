@@ -59,13 +59,28 @@ Communication Protocols:
 At this stage, we're still working out the format of the data that will feed out of the Twitter (Tweety) pipeline.
 We have a provisional database as:
 
-<img width="601" alt="Screen Shot 2021-08-29 at 7 06 58 AM" src="https://user-images.githubusercontent.com/82069038/131248251-f9881d74-f64b-44ff-bac6-ca4ee8693219.png">  
+
   
   
   
 Within the 02.Database folder is also a jupyter notebook which can be used to create the tables in PostGres.
 
 We anticipate having a sentiment analysis engine (preliminarily in the 01.Twitter_API_Testing folder), which will score tweets as positive, negative, or neutral.  Thus, the sample data in 03.Machine_Learning is a  .csv file with three possibilities.  We use this sample data to load into the two jupyter notebooks in the same folder.
+
+#### Deliverable 2 Overview:
+
+
+![Fig1: Updated Database Structure](02.Database/UpdatedDBStructure.png)
+[Fig1: Updated Database Structure](02.Database/UpdatedDBStructure.png?raw=true "Fig1: Updated Database Structure")
+
+An Amazon RDS instance is created at:
+covidsentiment.cqciwtn1qpki.us-east-2.rds.amazonaws.com
+
+This database is initially loaded with a dataset of 60k tweets collected over an 8 week period from December 1 2019 to Jan 28 2020 from:
+
+https://www.trackmyhashtag.com/blog/free-twitter-datasets/
+
+
 
 
 
@@ -75,7 +90,6 @@ We anticipate having a sentiment analysis engine (preliminarily in the 01.Twitte
 First, design an Entity Relationship Diagram (ERD) as a visual aid, prior to creating Tables in PostgreSQL. (see below)
 
   
-  <img width="601" alt="Screen Shot 2021-08-29 at 7 06 58 AM" src="https://user-images.githubusercontent.com/82069038/131248251-f9881d74-f64b-44ff-bac6-ca4ee8693219.png">
   
   
  -    tweepy: Python library for accessing the Twitter API
