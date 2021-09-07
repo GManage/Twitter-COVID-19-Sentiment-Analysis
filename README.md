@@ -38,6 +38,7 @@ We intend to use CDC, or other data as the source of hospitalization rate data.
 We attempted to retrieve historical Twitter api data and parse the JSON request results into what we need, which we have presented in the repo as testing scripts, however, with the limited access of academic use purposes, time and skillsets, instead we decided to switch to some existing Kaggle datasets of covid vaccination tweets. 
 
 https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets/activity
+
 https://www.kaggle.com/maxjon/complete-tweet-sentiment-extraction-data/activity
 
 #### Questions We Want Answered:
