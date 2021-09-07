@@ -35,6 +35,11 @@ We've selected this topic because it is extraordinarily topical, using technolog
 We're using Twitter api data as the source of sentiment analysis data.
 We intend to use CDC, or other data as the source of hospitalization rate data.
 
+We attempted to retrieve historical Twitter api data and parse the JSON request results into what we need, which we have presented in the repo as testing scripts, however, with the limited access of academic use purposes, time and skillsets, instead we decided to switch to some existing Kaggle datasets of covid vaccination tweets. 
+
+https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets/activity
+https://www.kaggle.com/maxjon/complete-tweet-sentiment-extraction-data/activity
+
 #### Questions We Want Answered:
 
 1. to understand the relationship between sentiment, as measured by twitter, and hospitalization rates.
