@@ -80,6 +80,8 @@ This database is initially loaded with a dataset of 60k tweets collected over an
 
 https://www.trackmyhashtag.com/blog/free-twitter-datasets/
 
+However, the database is updated with current Twitter data by use of the code in 01.Twitter_API_Testing/01b.TwitterHistoricalAPI.ipynb
+
 
 
 
