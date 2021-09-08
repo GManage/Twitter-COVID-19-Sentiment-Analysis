@@ -77,16 +77,20 @@ Communication Protocols:
 ![Fig1: Updated Database Structure](02.Database/UpdatedDBStructure.png)
 [Fig1: Updated Database Structure](02.Database/UpdatedDBStructure.png?raw=true "Fig1: Updated Database Structure")
 
-An Amazon RDS instance is created at:
+Figure 1 is a diagram of a database, which is constructed as an Amazon RDS instance at:
 covidsentiment.cqciwtn1qpki.us-east-2.rds.amazonaws.com
 
-and can be accessed with a password upon request.
+It can be accessed with a password upon request.
 
 This database is initially loaded with a dataset of 60k tweets collected over an 8 week period from December 1 2019 to Jan 28 2020 from:
 
 https://www.trackmyhashtag.com/blog/free-twitter-datasets/
 
-However, the database is updated with current Twitter data by use of the code in 01.Twitter_API_Testing/01b.TwitterHistoricalAPI.ipynb
+as well as selected tweets obtained direct from the Twitter API.
+The database can be updated in multiple ways using code available in this git repository.  
+
+01.Twitter_API Testing /01c.TwitterHistoricalAPIextendDB pulls from Twitter, given the proper authentication codes.  02.Database/12.LoadCSVtoDB loads the kaggle data to the database.
+
 
 
 
@@ -96,67 +100,6 @@ However, the database is updated with current Twitter data by use of the code in
 
 ##### Dashboard
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ETL Notes
-### Extract-Transform-Load
---- 
-First, design an Entity Relationship Diagram (ERD) as a visual aid, prior to creating Tables in PostgreSQL. (see below)
-
-  
-  
-  
- -    tweepy: Python library for accessing the Twitter API
- -   SkLearn: popular machine learning library
- -    NLTK: Natural language processing library
- -   re: regular expression library
- -   pandas: popular data analysis library
-  
-  
-  
-We're tasked with priming raw data from JSON files via Twitter's API.\
-Nevertheless, we'll consider the following questions before any unsupervised learning models can be applied and results analyzed. 
-
-   -  Will I be able to easily hand off this data set to other teams?
-   -  Does the data contain excess data that we don’t really need?
-   -  How can I get this data to be used to create great visualizations?
 
 
 
