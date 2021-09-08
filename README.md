@@ -89,7 +89,7 @@ https://www.trackmyhashtag.com/blog/free-twitter-datasets/
 as well as selected tweets obtained direct from the Twitter API.
 The database can be updated in multiple ways using code available in this git repository.  
 
-01.Twitter_API Testing /01c.TwitterHistoricalAPIextendDB pulls from Twitter, given the proper authentication codes.  02.Database/12.LoadCSVtoDB loads the kaggle data to the database.
+01.Twitter_API Testing /01c.TwitterHistoricalAPIextendDB pulls from Twitter, given the proper authentication codes, while 02.Database/12.LoadCSVtoDB loads the kaggle data to the database.
 
 
 
