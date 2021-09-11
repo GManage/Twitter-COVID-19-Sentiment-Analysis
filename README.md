@@ -13,7 +13,10 @@ This project seeks to identify any correlation between ∆ daily inoculation rat
 
 ## Analysis Methods
     Integrated Database  
-Extract csv datasets from data sources (referenced above), transforming and cleaning them with Python, and loading the datasets using Amazon Web Services and PostgreSQL (server/database). This allows us to establish connection with our model, and store static data for use during the project. 
+Extract csv datasets from data sources (referenced above), transforming and cleaning them with Python, and loading the datasets using Amazon Web Services and PostgreSQL (server/database). This allows us to establish connection with our model, and store static data for use during the project.
+- Constructed as an Amazon RDS instance: 
+    - Connection Parameter: (covidsentiment.cqciwtn1qpki.us-east-2.rds.amazonaws.com)
+    - Accessed with a password upon request
 <p>
   
 Further transformations:
