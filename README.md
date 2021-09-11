@@ -31,7 +31,7 @@ Next, implementing a natural language processing algorithm allows us to gather o
 <p>
   
     Dashboard
-  [link to dashboard]
+  [COVID-19 DASHBOARD](https://public.tableau.com/app/profile/jay.s.hirpara/viz/COVID-19Dashboard_16313779892960/COVID-19Dashboard?publish=yes)
 - A blueprint for the dashboard is created and includes all of the following:
 - Storyboard on Google Slide(s)
 - Description of the tool(s) that will be used to create final dashboard
