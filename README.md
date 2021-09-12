@@ -22,7 +22,7 @@ This project aims to collect some data and perform sentiment analysis surroundin
 
 ## Machine Learning Approach:
 
-We use and compare various different methods for sentiment analysis on tweets (a multiclass classification problem). The training dataset is expected to be a csv file of type tweet_id,sentiment,tweet where the tweet_id is a unique integer identifying the tweet, sentiment is either positive , negative , or neutral and tweet is the tweet enclosed in "". Similarly, the test dataset is a csv file of type tweet_id,tweet.
+We use and compare various different methods for sentiment analysis on tweets (a multiclass classification problem). The training dataset is expected to be a csv file of type tweet_id,sentiment,tweet where the tweet_id is a unique integer identifying the tweet, sentiment is either positive , negative , or neutral and tweet is the tweet enclosed in "". Similarly, the test dataset is a csv file of type tweet_id,tweet. In addition, we will also use data set from the CDC to help compare and give a better geographical comparison.
 
 
 ### Logistic Regression:
