@@ -40,7 +40,7 @@ Next, implementing a natural language processing algorithm allows us to gather o
 2. Fit sentiment texts features with vectorizer, and target sentiment column. 
 
 - Description of how data was split into training and testing sets
-Splitting into training and testing set so as to evaluate the classifier. 
+Splitting into training and testing set so as to evaluate the classifier. The aim is to get an industry standard sample split of 80% train and 20% test.
 
 - Explanation of model choice, including limitations and benefits
 1. Naive Bayes classifier is a collection of many algorithms where all the algorithms share one common principle, and that is each feature being classified is not related to any other feature. The algorithm is based on the Bayes theorem and predicts the tag of a text such as a piece of email or newspaper article. It calculates the probability of each tag for a given sample and then gives the tag with the highest probability as output.
