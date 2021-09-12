@@ -29,4 +29,4 @@ We use and compare various different methods for sentiment analysis on tweets (a
 Logistic regression is a classification algorithm, used when the value of the target variable is categorical in nature. Logistic regression is most commonly used when the data in question has binary output, so when it belongs to one class or another, or is either a 0 or 1.
 
 
-
+#### Classification 
