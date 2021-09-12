@@ -30,7 +30,7 @@ Next, implementing a natural language processing algorithm allows us to gather o
 - Machine Learning Libraries: nltk, sklearn 
 - Description of preliminary data preprocessing
 1. Load historical twitter covid vaccine data from kaggle. 
-2. Clean tweets with clean_tweet function(regex), tokenize and get ready for text classification. 
+2. Clean tweets with clean_tweet function(regex), tokenize and get ready for text classification. Also, clean up function for removing hashtags, URL's, mentions, and retweets.
 3. Apply Textblob.sentiment.polarity and Textblob.sentiment.subjectivity, ready for sentiment analysis. 
 4. Apply analyze_sentiment function on tweet texts to label texts with sentiment range from -1 (negative) to 1(positve). 
 5. Plot top 10 words from postivie and negative-resulted words. 
