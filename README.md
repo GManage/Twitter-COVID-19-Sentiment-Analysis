@@ -54,5 +54,5 @@ Next, implementing a natural language processing algorithm allows us to gather o
 - The Twitter API was very limited to the amount of data we could pull
 - Group ran into a machine learning natural language paradox, where we noticed an issue within our sentiment analysis. When analyzing tweets for Covid-19 Vaccination sentiment 
 (pro/anti-vaccine) when running into a tweet such as “I hate anti-vaxxers”, this would return a negative sentiment when this person is actually pro-vaccine.
-- Using academic accounts only allows 7 days of tweets. We could not get live data without having a twitter scholar account. 
-    The group decided to use a Kaggle Dataset, which provided us with thousands of tweets from August 21st 
+- Using academic accounts only allows access back to 7 days of tweets. We could not get twitter's full archive search without having a twitter scholar account. 
+    ### The group decided to use a Kaggle Dataset, which provided us with thousands of tweets from August 21st 
