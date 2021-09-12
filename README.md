@@ -2,8 +2,8 @@
     Members: Christopher Bach | Khalid Hamid Fallous | Jay Hirpara | Jing Tang | Graham Thomas | David Wetherhold
 
 ## Communication Protocols
-- Zoom: Monday/Wednesday meetings
-- Slack: brainstorming, member assignment, progress/code updates, meeting arrangements
+- Zoom: Monday/Wednesday class meetings
+- Slack: brainstorming, member assignment, progress/code updates, meeting arrangements, collaboration
 <p>
   
 ## Project Overview
@@ -49,11 +49,10 @@ Next, implementing a natural language processing algorithm allows us to gather o
 - Description of the analysis phase of the project
 
 ## Challenges and Limitations
-- Some members ran into issues with gaining Academic Twitter accounts to be able to access the Twitter API
+- Some members ran into issues with gaining Academic Twitter accounts to be able to access the Twitter API.
 - After gaining access to tweets our original goal of using the location of tweets was not possible due to most tweets not having geotag data
-- Twitter data was very limited to Date
-- Ran into natural learning sentiment problem (i.e. “I hate anti-vaxxers”)
-Machine learning logic paradox 
-Using academic accounts only allows 7 days of tweets. Not getting live data due to a scholar account 
-Using Kaggle Dataset August 21st 
-Running into sentiment
+- The Twitter API was very limited to the amount of data we could pull
+- Group ran into a machine learning natural language paradox, where we noticed an issue within our sentiment analysis. When analyzing tweets for Covid-19 Vaccination sentiment 
+(pro/anti-vaccine) when running into a tweet such as “I hate anti-vaxxers”, this would return a negative sentiment when this person is actually pro-vaccine.
+- Using academic accounts only allows 7 days of tweets. We could not get live data without having a twitter scholar account. 
+    The group decided to use a Kaggle Dataset, which provided us with thousands of tweets from August 21st 
