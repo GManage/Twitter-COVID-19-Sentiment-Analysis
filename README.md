@@ -26,6 +26,7 @@ Further transformations:
  <p>
    
     Machine Learning Model
+
 Next, implementing a natural language processing algorithm allows us to gather our [sentiment analysis](https://github.com/GManage/Twitter-COVID-19-Sentiment-Analysis/blob/702f821038f6f4596ff8908df69acc57ed5bbd80/03.Machine_Learning/Sentiment_Analysis_MNBclassifier_D2.ipynb)
 - Machine Learning Libraries: nltk, sklearn 
 - Description of preliminary data preprocessing
