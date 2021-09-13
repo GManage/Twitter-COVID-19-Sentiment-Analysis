@@ -26,7 +26,8 @@ Further transformations:
  <p>
    
     Machine Learning Model
-Next, implementing a natural language processing algorithm allows us to gather our sentiment analysis. 
+
+Next, implementing a natural language processing algorithm allows us to gather our [sentiment analysis](https://github.com/GManage/Twitter-COVID-19-Sentiment-Analysis/blob/702f821038f6f4596ff8908df69acc57ed5bbd80/03.Machine_Learning/Sentiment_Analysis_MNBclassifier_D2.ipynb)
 - Machine Learning Libraries: nltk, sklearn 
 - Description of preliminary data preprocessing
 1. Load historical twitter covid vaccine data from kaggle. 
@@ -60,8 +61,9 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
   
  [Presentation](https://docs.google.com/presentation/d/1mDPH7XcgGB0oe8LvYLOQ0zkui6xMUB3WQaB8qf4a__4/edit?usp=sharing)
 - Selected topic
-- Reason why they selected their topic ✓ Description of their source of data
-- Questions they hope to answer with the data
+- Why we selected our topic
+- Description of our source of data
+- Questions we hope to answer with the data
 - Description of the data exploration phase of the project
 - Description of the analysis phase of the project
 
