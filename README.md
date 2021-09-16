@@ -1,10 +1,6 @@
 # Twitter COVID-19 Sentiment Analysis
     Members: Christopher Bach | Khalid Hamid Fallous | Jay Hirpara | Jing Tang | Graham Thomas | David Wetherhold
 
-## Communication Protocols
-- Zoom: Monday/Wednesday class meetings
-- Slack: brainstorming, member assignment, progress/code updates, meeting arrangements, collaboration
-<p>
   
 ## Project Overview
 This project seeks to identify any correlation between ∆ daily inoculation rates and ∆ twitter sentiment surrounding COVID-19. 
