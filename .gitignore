@@ -10,6 +10,7 @@ config.py
 01.Twitter_API_Testing/OneTweetJson.docx
 02.Database/config.py
 02.Database/01.CreateTablesOriginal
+02.Database/Resources/covidvaccine.csv
 03.Machine_Learning/config.py
 Resources/covidvaccine.csv
 
