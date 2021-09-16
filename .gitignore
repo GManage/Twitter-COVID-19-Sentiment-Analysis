@@ -1,10 +1,28 @@
 
+<<<<<<< HEAD
 #files to ignore
 
 Bach_Twitter_Testing/01.AuthenticationSuccessful.ipynb
 Bach_Twitter_Testing/02.ClassBuild.ipynb
 Bach_Twitter_Testing/03.FunctionBuild.ipynb
 Bach_Twitter_Testing/TwitterSentimentTest.py
+=======
+#files to ignore.
+
+config.py
+01.Twitter_API_Testing/01.AuthenticationSuccessful.ipynb
+01.Twitter_API_Testing/02.ClassBuild.ipynb
+01.Twitter_API_Testing/03.FunctionBuild.ipynb
+01.Twitter_API_Testing/TwitterSentimentTest.py
+01.Twitter_API_Testing/01x.AuthenticationSuccessful.ipynb
+01.Twitter_API_Testing/03x.FunctionBuild.ipynb
+01.Twitter_API_Testing/config.py
+01.Twitter_API_Testing/OneTweetJson.docx
+02.Database/config.py
+02.Database/01.CreateTablesOriginal
+03.Machine_Learning/config.py
+Resources/covidvaccine.csv
+>>>>>>> 676d329fe2f2069ecb23d499e6b7526ab813a234
 
 
 
@@ -137,3 +155,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+<<<<<<< HEAD
+=======
+
+>>>>>>> 676d329fe2f2069ecb23d499e6b7526ab813a234
