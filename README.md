@@ -9,7 +9,7 @@ This project seeks to identify any correlation between ∆ daily inoculation rat
 
 ## Analysis Methods
     Integrated Database  
-Extract csv datasets from data sources (referenced above), transforming and cleaning them with Python, and loading the datasets using Amazon Web Services and PostgreSQL (server/database). This allows us to establish connection with our model, and store static data for use during the project.
+Extract CSV datasets from data sources (referenced above), transforming and cleaning them with Python, and loading the datasets using Amazon Web Services and PostgreSQL (server/database). This allows us to establish connection with our model, and store static data for use during the project.
 - Constructed as an Amazon RDS instance: 
     - Connection Parameter: (covidsentiment.cqciwtn1qpki.us-east-2.rds.amazonaws.com)
     - Accessed with a password upon request
@@ -78,7 +78,7 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 - Facebook, Instagram and TikTok were all considered initially, but did not have the necessary data readily available.
 - Some members ran into issues with gaining Academic Twitter accounts to be able to access the Twitter API.
 - After gaining access to tweets our original goal of using the location of tweets was not possible due to most tweets not having geotag data
-- The Twitter API was very limited to the amount of data we could pull
+- The Twitter API was very limited to the amount of data we could pull. Alternative dataset will be needed.
 - Group ran into a machine learning natural language paradox, where we noticed an issue within our sentiment analysis. When analyzing tweets for Covid-19 Vaccination sentiment 
 (pro/anti-vaccine) when running into a tweet such as “I hate anti-vaxxers”, this would return a negative sentiment when this person is actually pro-vaccine.
 - Using academic accounts only allows access back to 7 days of tweets. We could not get twitter's full archive search without having a twitter scholar account. 
