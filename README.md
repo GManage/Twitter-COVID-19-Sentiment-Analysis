@@ -75,6 +75,7 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 
 ## Challenges and Limitations
     Problems
+- Facebook, Instagram and TikTok were all considered initially, but did not have the necessary data readily available.
 - Some members ran into issues with gaining Academic Twitter accounts to be able to access the Twitter API.
 - After gaining access to tweets our original goal of using the location of tweets was not possible due to most tweets not having geotag data
 - The Twitter API was very limited to the amount of data we could pull
@@ -84,6 +85,7 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 <p>
     
     Solutions
+- The group decided to use Twitter since it's API was available after submitting applications.
 - Members had to submit extra information to the Twitter developers platform to qualify for academic research accounts
 - Due to lack of geodata, the team decided to switch to using twitter sentiment over time, rather than region
 - The group decided to use a Kaggle Dataset, which provided us with tweets from December 21, 2020. 
