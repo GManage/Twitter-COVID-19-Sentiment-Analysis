@@ -1,6 +1,6 @@
 
 library(dplyr)
-path = "C:\\Users\\Christopher\\OneDrive\\Desktop\\Assignments\\PowerRangersSandbox\\"
+path = "C:\\OneDrive\\Desktop\\Assignments\\COVID19\\"
 
 #file = "agg_sentiment_w3classifiers_olddata.csv"
 file = "agg_sentiment_w3classifiers_olddata_wNLTK.csv"
