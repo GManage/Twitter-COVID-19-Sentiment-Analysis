@@ -15,6 +15,8 @@ Overview
 
 
 Project Goal:
+This project seeks to identify any correlation between ∆ daily inoculation rates and ∆ twitter sentiment surrounding COVID-19. The reason why this topic was selected is because it is a very relevant topic in today's pandemic.
+
 
 
 
