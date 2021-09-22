@@ -29,7 +29,11 @@ Next, implementing a natural language processing algorithm allows us to gather o
 1. Load historical twitter covid vaccine data from kaggle. 
 2. Clean tweets with clean_tweet function(regex), tokenize and get ready for text classification. Also, clean up function for removing hashtags, URL's, mentions, and retweets.
 3. Apply Textblob.sentiment.polarity and Textblob.sentiment.subjectivity, ready for sentiment analysis. 
+     <img width="1088" alt="textblob_polority_subjectivity" src="https://user-images.githubusercontent.com/82353749/134425879-74fc1dd9-db3f-462a-903f-ef04b4449d9a.png">
+
 4. Apply analyze_sentiment function on tweet texts to label texts with sentiment range from -1 (negative) to 1(positve). 
+     <img width="1021" alt="textblob_analyzer" src="https://user-images.githubusercontent.com/82353749/134425893-52b61439-0992-4ddd-8fe5-7eacf22a41c8.png">
+
 5. Plot top 10 words from postivie and negative-resulted words. 
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
@@ -47,6 +51,9 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 
 - Changes of model choice from segment 2 to segment 3
 1. Vader Analysis: VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. It uses a list of lexical features (e.g. word) which are labeled as positive or negative according to their semantic orientation to calculate the text sentiment. VADER not only tells about the Positivity and Negativity score but also tells us about how positive or negative a sentiment is. 
+     VADER Sentiment Analyzer: <img width="1014" alt="VADER_sentiment_analyzer" src="https://user-images.githubusercontent.com/82353749/134425800-ee34f989-fa48-457f-9d3f-59c63da31914.png">
+     <img width="1001" alt="VADER_sentiment_compound_scores" src="https://user-images.githubusercontent.com/82353749/134425829-438615a0-2fe4-40c9-9e68-c2d60b2920bf.png">
+
 2. Solution to limitations: We discovered the most common words appeared in our twitter dataset are associated with covid vaccines because we retrieved the data with covid vaccine as search terms. Textblob Polarity is float which lies in the range of [-1,1] where 1 means positive statement and -1 means a negative statement. Subjective sentences generally refer to personal opinion, emotion or judgment whereas objective refers to factual information. Subjectivity is also a float which lies in the range of [0,1]. We are trying to process text classification with another function to get more accurate sentiment labels on the tweet texts. 
 <p>
  
