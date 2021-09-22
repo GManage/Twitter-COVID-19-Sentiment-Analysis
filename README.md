@@ -3,7 +3,7 @@
 
   
 ## Project Overview
-This project seeks to identify any correlation between ∆ daily inoculation rates and ∆ twitter sentiment surrounding COVID-19. The reason why this topic was selected is  because it is a very relevant topic in today's pandemic.
+This project seeks to identify any correlation between ∆ daily inoculation rates and ∆ twitter sentiment surrounding COVID-19. The reason why we selected this topic is because it is a very relevant topic in today's pandemic.
       
   - Data Sources: [Twitter](https://www.trackmyhashtag.com/blog/free-twitter-datasets/) | [CDC](https://covid.cdc.gov/covid-data-tracker/#datatracker-home)
 
