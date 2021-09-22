@@ -1,6 +1,4 @@
-
 #files to ignore.
-
 config.py
 01.Twitter_API_Testing/01.AuthenticationSuccessful.ipynb
 01.Twitter_API_Testing/02.ClassBuild.ipynb
@@ -12,8 +10,14 @@ config.py
 01.Twitter_API_Testing/OneTweetJson.docx
 02.Database/config.py
 02.Database/01.CreateTablesOriginal
+02.Database/Resources/covidvaccine.csv
 03.Machine_Learning/config.py
 Resources/covidvaccine.csv
+
+Bach_Twitter_Testing/01.AuthenticationSuccessful.ipynb
+Bach_Twitter_Testing/02.ClassBuild.ipynb
+Bach_Twitter_Testing/03.FunctionBuild.ipynb
+Bach_Twitter_Testing/TwitterSentimentTest.py
 
 
 
@@ -146,4 +150,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
 
