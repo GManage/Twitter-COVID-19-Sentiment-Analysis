@@ -3,13 +3,13 @@
 
   
 ## Project Overview
-This project seeks to identify any correlation between ∆ daily inoculation rates and ∆ twitter sentiment surrounding COVID-19. 
+This project seeks to identify any correlation between ∆ daily inoculation rates and ∆ twitter sentiment surrounding COVID-19. The reason why we selected this topic is because it is a very relevant topic in today's pandemic.
       
   - Data Sources: [Twitter](https://www.trackmyhashtag.com/blog/free-twitter-datasets/) | [CDC](https://covid.cdc.gov/covid-data-tracker/#datatracker-home)
 
 ## Analysis Methods
     Integrated Database  
-Extract csv datasets from data sources (referenced above), transforming and cleaning them with Python, and loading the datasets using Amazon Web Services and PostgreSQL (server/database). This allows us to establish connection with our model, and store static data for use during the project.
+Extract CSV datasets from data sources (referenced above), transforming and cleaning them with Python, and loading the datasets using Amazon Web Services and PostgreSQL (server/database). This allows us to establish connection with our model, and store static data for use during the project.
 - Constructed as an Amazon RDS instance: 
     - Connection Parameter: (covidsentiment.cqciwtn1qpki.us-east-2.rds.amazonaws.com)
     - Accessed with a password upon request
@@ -44,12 +44,21 @@ Splitting into training and testing set so as to evaluate the classifier. The ai
 The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification).Multinomial Naive Bayes algorithm is a probabilistic learning method that is mostly used in Natural Language Processing (NLP). 
 2. Multinomial Naive Bayes classification algorithm tends to be a baseline solution for sentiment analysis task. The basic idea of Naive Bayes technique is to find the probabilities of classes assigned to texts by using the joint probabilities of words and classes.
 3. Naive Bayes algorithm is only used for textual data classification and cannot be used to predict numeric values. The result of naive bayes model provide statistical sense by predicting how often that certain words with the sentimental labels appear, which does not necessarily indicate the factual attitudes/sentiments towards covid vaccine, and it does not work with regression because it is not numerical data. One of the benefits of Naive Bayes is that if its assumption of the independence of features holds true, it can perform better than other models and requires much less training data. 
-4. Vader Analysis: VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. VADER not only tells about the Positivity and Negativity score but also tells us about how positive or negative a sentiment is.
-5. Solution to limitations: We discovered the most common words appeared in our twitter dataset are associated with covid vaccines because we retrieved the data with covid vaccine as search terms. Textblob Polarity is float which lies in the range of [-1,1] where 1 means positive statement and -1 means a negative statement. Subjective sentences generally refer to personal opinion, emotion or judgment whereas objective refers to factual information. Subjectivity is also a float which lies in the range of [0,1]. We are trying to process text classification with another function to get more accurate sentiment labels on the tweet texts. 
+
+- Changes of model choice from segment 2 to segment 3
+1. Vader Analysis: VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. It uses a list of lexical features (e.g. word) which are labeled as positive or negative according to their semantic orientation to calculate the text sentiment. VADER not only tells about the Positivity and Negativity score but also tells us about how positive or negative a sentiment is. 
+2. Solution to limitations: We discovered the most common words appeared in our twitter dataset are associated with covid vaccines because we retrieved the data with covid vaccine as search terms. Textblob Polarity is float which lies in the range of [-1,1] where 1 means positive statement and -1 means a negative statement. Subjective sentences generally refer to personal opinion, emotion or judgment whereas objective refers to factual information. Subjectivity is also a float which lies in the range of [0,1]. We are trying to process text classification with another function to get more accurate sentiment labels on the tweet texts. 
 <p>
-  
+ 
+ 
+- Changes from segement 3 to segment 4
+1. Added sentiment "NLTK" which is a votes based combined algorithm encompassing multiple natural language processing techniques.
+
+<p>
+
+
     Dashboard
-  [COVID-19 DASHBOARD](https://public.tableau.com/app/profile/jay.s.hirpara/viz/COVID-19Dashboard_16313779892960/COVID-19Dashboard?publish=yes)
+  [COVID-19 DASHBOARD](https://public.tableau.com/app/profile/jay.s.hirpara/viz/COVID-19Dashboard_16313779892960/COVID-19Dashboard#1)
 - A blueprint for the dashboard is created and includes all of the following:
 - Storyboard on Google Slide(s)
 - Description of the tool(s) that will be used to create final dashboard
@@ -66,15 +75,17 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 
 ## Challenges and Limitations
     Problems
+- Facebook, Instagram and TikTok were all considered initially, but did not have the necessary data readily available.
 - Some members ran into issues with gaining Academic Twitter accounts to be able to access the Twitter API.
 - After gaining access to tweets our original goal of using the location of tweets was not possible due to most tweets not having geotag data
-- The Twitter API was very limited to the amount of data we could pull
+- The Twitter API was very limited to the amount of data we could pull. Alternative dataset will be needed.
 - Group ran into a machine learning natural language paradox, where we noticed an issue within our sentiment analysis. When analyzing tweets for Covid-19 Vaccination sentiment 
 (pro/anti-vaccine) when running into a tweet such as “I hate anti-vaxxers”, this would return a negative sentiment when this person is actually pro-vaccine.
 - Using academic accounts only allows access back to 7 days of tweets. We could not get twitter's full archive search without having a twitter scholar account. 
 <p>
     
     Solutions
+- The group decided to use Twitter since it's API was available after submitting applications.
 - Members had to submit extra information to the Twitter developers platform to qualify for academic research accounts
 - Due to lack of geodata, the team decided to switch to using twitter sentiment over time, rather than region
 - The group decided to use a Kaggle Dataset, which provided us with tweets from December 21, 2020. 
