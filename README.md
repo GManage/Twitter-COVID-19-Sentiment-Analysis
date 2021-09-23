@@ -1,8 +1,7 @@
 # Twitter COVID-19 Sentiment Analysis
     Members: Christopher Bach | Khalid Hamid Fallous | Jay Hirpara | Jing Tang | Graham Thomas | David Wetherhold
 
-  
-## Project Overview
+  ## Project Overview
 This project seeks to identify any correlation between ∆ daily inoculation rates and ∆ twitter sentiment surrounding COVID-19. We chose the pandemic as our topic because of it's societal relevance and implications as an ongoing event.
       
   - Data Sources: [Twitter](https://www.trackmyhashtag.com/blog/free-twitter-datasets/) | [CDC](https://covid.cdc.gov/covid-data-tracker/#datatracker-home)
@@ -57,8 +56,7 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 2. Solution to limitations: We discovered the most common words appeared in our twitter dataset are associated with covid vaccines because we retrieved the data with covid vaccine as search terms. Textblob Polarity is float which lies in the range of [-1,1] where 1 means positive statement and -1 means a negative statement. Subjective sentences generally refer to personal opinion, emotion or judgment whereas objective refers to factual information. Subjectivity is also a float which lies in the range of [0,1]. We are trying to process text classification with another function to get more accurate sentiment labels on the tweet texts. 
 <p>
  
- 
-- Changes from segement 3 to segment 4
+ - Changes from segement 3 to segment 4
 1. Added sentiment "NLTK" which is a votes based combined algorithm encompassing multiple natural language processing techniques.
 
 <p>
