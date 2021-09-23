@@ -64,7 +64,7 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 <p>
 
 
-    Dashboard
+   Dashboard
   [COVID-19 DASHBOARD](https://public.tableau.com/app/profile/jay.s.hirpara/viz/COVID-19Dashboard_16313779892960/COVID-19Dashboard#1)
 - A blueprint for the dashboard is created and includes all of the following:
 - Storyboard on Google Slide(s)
