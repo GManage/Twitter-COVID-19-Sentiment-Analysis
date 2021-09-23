@@ -4,7 +4,7 @@
   ## Project Overview
 This project seeks to identify any correlation between ∆ daily inoculation rates and ∆ twitter sentiment surrounding COVID-19. We chose the pandemic as our topic because of it's societal relevance and implications as an ongoing event.
       
-  - Data Sources: [Twitter](https://www.trackmyhashtag.com/blog/free-twitter-datasets/) | [CDC](https://covid.cdc.gov/covid-data-tracker/#datatracker-home)
+  - Data Sources: [Twitter](https://www.trackmyhashtag.com/blog/free-twitter-datasets/) | [CDC](https://covid.cdc.gov/covid-data-tracker/#datatracker-home) | [Kaggle](https://www.kaggle.com/gpreda/all-covid19-vaccines-tweets)
 
 ## Analysis Methods
     Integrated Database  
