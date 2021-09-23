@@ -77,6 +77,7 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 - Questions we hope to answer with the data
 - Description of the data exploration phase of the project
 - Description of the analysis phase of the project
+- Limitations and solutions
 
 ## Challenges and Limitations
     Problems
