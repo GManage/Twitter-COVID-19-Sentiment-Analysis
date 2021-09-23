@@ -56,11 +56,32 @@ The multinomial Naive Bayes classifier is suitable for classification with discr
 2. Solution to limitations: We discovered the most common words appeared in our twitter dataset are associated with covid vaccines because we retrieved the data with covid vaccine as search terms. Textblob Polarity is float which lies in the range of [-1,1] where 1 means positive statement and -1 means a negative statement. Subjective sentences generally refer to personal opinion, emotion or judgment whereas objective refers to factual information. Subjectivity is also a float which lies in the range of [0,1]. We are trying to process text classification with another function to get more accurate sentiment labels on the tweet texts. 
 <p>
  
- - Changes from segement 3 to segment 4
+ - Changes from segment 3 to segment 4
 1. Added sentiment "NLTK" which is a votes based combined algorithm encompassing multiple natural language processing techniques.
 
 <p>
 
+Regression Results
+
+
+![2 Factor Regression](Visuals/28a.TextBlobVaderCumulativeReduced.png)
+[2 Factor Regression](Visuals/28a.TextBlobVaderCumulativeReduced.png?raw=true "2 Factor Regression")
+1. Initial regressions were positive, with an r^2 value of .29
+
+However, the p value for Textblob was very high, so we removed it:
+
+![1 Factor Regression](Visuals/28b.VaderCumulativeReduced.png)
+[1 Factor Regression](Visuals/28b.VaderCumulativeReduced.png?raw=true "1 Factor Regression")
+
+2. with one factor removed, the r^2 was still .29, but the p value was 0.000, indicating excellent results.
+
+However, these correlations were against cumulative administration rates.  We disaggregated the cumulation and re-ran the regression with 2 factors:
+
+![2 Factor Regression - Marginal](Visuals/28d.TextBlobVaderMarginalReduced.png)
+[2 Factor Regression - Marginal](Visuals/28d.TextBlobVaderMarginalReduced.png?raw=true "2 Factor Regression - Marginal")
+
+and the R^2 dropped to close to zero.  p-values are corresondingly high.
+<p>
 
    Dashboard
   [COVID-19 DASHBOARD](https://public.tableau.com/app/profile/jay.s.hirpara/viz/COVID-19Dashboard_16313779892960/COVID-19Dashboard#1)
